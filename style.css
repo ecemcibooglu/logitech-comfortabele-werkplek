@@ -1,6 +1,6 @@
 .header {
     color: #fff;
-    background-image: url(https://assets.channext.eu/logitech/2023/comfortabelewerkplek/img/header.png);
+    background-image: url(../comfi-img/header.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -8,7 +8,7 @@
 
 .banner {
     color: black;
-    background-image: url(https://assets.channext.eu/logitech/2023/comfortabelewerkplek/img/banner2.png);
+    background-image: url(../comfi-img/banner2.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 100% 0%;
