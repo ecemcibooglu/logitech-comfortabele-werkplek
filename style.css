@@ -1,0 +1,310 @@
+.header {
+    color: #fff;
+    background-image: url(https://assets.channext.eu/logitech/2023/comfortabelewerkplek/img/header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner {
+    color: black;
+    background-image: url(https://assets.channext.eu/logitech/2023/comfortabelewerkplek/img/banner2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+}
+
+.banner.bitmap-text {
+    font-size: 28px
+}
+
+
+.header h1 {
+    font-size: 45px;
+    line-height: 1.2;
+}
+
+h2 {
+    line-height: 1.2 !important;
+}
+
+p {
+    font-weight: 200 !important;
+}
+
+.bold{
+font-weight: 400 !important;
+}
+
+.middle-text {
+    color: #814EFA;
+    font-size: 32px;
+}
+
+.link-scroll {
+    color: #814EFA;
+}
+
+.link-scroll:hover {
+    color: #814EFA;
+}
+
+.light-text {
+    color: #222222;
+    opacity: 0.4 !important;
+}
+
+.bitmap-text {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.lgrey-bg {
+    background-color: #fbfbfb;
+}
+
+.purple-btn {
+    background-color: #814EFA !important;
+    color: white !important;
+    border: 2px solid #814EFA !important;
+}
+
+.purple-btn:hover {
+    background-color: transparent !important;
+    color: white !important;
+    border: 2px solid #814EFA !important;
+}
+
+
+.bitmap-bg {
+    background-color: #F4F4F4;
+}
+
+.block {
+    max-height: 50rem;
+    background-color: white;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.block .image-container {
+    overflow: hidden;
+    padding: 0;
+    max-height: 500px;
+}
+
+.block .text-container div {
+    padding: 20px 0;
+}
+
+.carousel-1 .carousel {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.carousel-1 .carousel-indicators {
+    bottom: -50px;
+}
+
+.carousel-1 .carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.carousel-1 .carousel-indicators li:first-child {
+    background-color: #000;
+}
+
+.carousel-1 .carousel-indicators li:last-child {
+    background-color: #CFBDC1;
+}
+
+.white-bg {
+    box-shadow: 0px 12px 24px 0px rgba(0, 0, 0, 0.3);
+    background-color: white;
+}
+
+.mobile-only {
+    display: none;
+}
+
+.desktop-only {
+    display: inline-block;
+}
+
+.carousel-2 {
+    display: none;
+}
+
+.carousel-control-prev {
+    left: -120px;
+}
+
+.carousel-control-next {
+    right: -120px;
+}
+
+.carousel-2 .carousel {
+    margin: 1rem auto;
+    width: 85%;
+    height: 485px;
+}
+
+.carousel-2 .carousel-inner {
+    padding: 50px;
+    box-shadow: 0px 12px 24px 0px rgba(0, 0, 0, 0.3);
+    height: 100%;
+}
+
+.inner-text {
+    flex: 0 0 60%;
+    max-width: 60%;
+}
+
+.inner-img {
+    flex: 0 0 40%;
+    max-width: 40%;
+}
+
+.carousel-2 .carousel-item {
+    position: relative;
+    height: 100%;
+}
+
+.carousel .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel .carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+
+
+
+/* Form */
+
+form input {
+    margin: 0.3rem 0;
+    border: none;
+    padding: 0 20px;
+}
+
+form input:not([type="checkbox"]) {
+    width: 100%;
+    height: 45px;
+}
+
+form input[type="checkbox"] {
+    margin-top: 1rem;
+}
+
+form button {
+    background-color: #814EFA;
+    color: #fff !important;
+    cursor: pointer;
+    border: 2px solid #814EFA;
+}
+
+form button:hover {
+    color: #814EFA !important;
+    background-color: transparent;
+    border: 1px solid #814EFA;
+}
+
+.checkbox {
+    margin-bottom: 5px;
+}
+
+form input[type="checkbox"] {
+    margin-top: 0.5rem;
+}
+
+.fieldphone {
+    margin-bottom: 10px;
+}
+
+.checkbox input {
+    margin: .5rem .5rem .5rem 0;
+    width: auto;
+}
+
+.checkbox label {
+    display: inline;
+}
+
+form label {
+    display: none;
+}
+
+
+/*Screens */
+
+@media screen and (min-width: 576px) {
+    .carousel-2 {
+        display: block;
+    }
+
+    .mobile-only {
+        display: none;
+    }
+
+    .carousel-1 .carousel {
+        width: 500px;
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .desktop-only {
+        display: none;
+    }
+
+    .block .image-container {
+        max-height: 200px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .block .text-container div {
+        padding: 20px 50px 20px 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+.banner {
+     background-position: 1%;
+}
+
+.mobile-only {
+    display:  inline-block
+}
+
+.desktop-only {
+    display: none;
+}
+
+.mobile-bottom {
+margin-bottom: 6%;
+}
+
+.header h1 {
+    font-size: 35px;
+    line-height: 1.2;
+}
+
+.middle-text {
+    font-size: 25px;
+}
+
+.bitmap-text {
+    font-size: 24px;
+}
+
+.carousel-2 .carousel {
+        height: auto;
+    }
+}
